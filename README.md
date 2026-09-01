@@ -56,15 +56,15 @@ Swagger UI: `http://localhost:8081/swagger-ui.html`
 
 ## Running Locally
 
-### Option 1 — Docker Compose (recommended)
+### 1 — Docker Compose (recommended)
 
 ```bash
 docker compose up --build
 ```
 
-This starts MySQL and the API together. The app is available at `http://localhost:8080`.
+This starts MySQL and the API together. The app is available at `http://localhost:8081`.
 
-### Option 2 — Local Maven + local MySQL
+### 2 — Local Maven + local MySQL
 
 1. Start a MySQL instance (the app auto-creates the `productdb` schema on first connect).
 2. Set environment variables (or edit `application.yml` defaults):
@@ -80,7 +80,7 @@ This starts MySQL and the API together. The app is available at `http://localhos
 
 ```bash
 # Register
-curl -X POST http://localhost:8080/api/v1/auth/register \
+curl -X POST http://localhost:8081/api/v1/auth/register \
   -H "Content-Type: application/json" \
   -d '{"username":"john","password":"secret123"}'
 
