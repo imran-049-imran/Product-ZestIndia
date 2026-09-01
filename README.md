@@ -31,7 +31,7 @@ Built for the Zest India IT Services Java Backend Developer Technical Assessment
 
 | Technology          | Version / Usage                |
 |----------------------|--------------------------------|
-| Java                 | 21                              |
+| Java                 | 17                              |
 | Spring Boot          | 3.5.4                           |
 | Spring Web           | REST APIs                       |
 | Spring Data JPA      | Persistence                     |
